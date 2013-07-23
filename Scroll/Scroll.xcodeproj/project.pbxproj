@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B802D6717828E3A005216E9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D6617828E3A005216E9 /* AppDelegate.mm */; };
+		2B802D6917828E3A005216E9 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B802D6817828E3A005216E9 /* en.strings */; };
+		2B802D6B17828E3A005216E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D6A17828E3A005216E9 /* main.m */; };
+		2B802D6D17828E3A005216E9 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 2B802D6C17828E3A005216E9 /* main.pch */; };
+		2B802D7017828E3A005216E9 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B802D6F17828E3A005216E9 /* main.xib */; };
+		2B802D7317828E3A005216E9 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D7217828E3A005216E9 /* poOpenGLView.mm */; };
+		2B802D7717828E3A005216E9 /* ScrollApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D7617828E3A005216E9 /* ScrollApp.cpp */; };
+		2B802D7917828E3A005216E9 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D7817828E3A005216E9 /* AppConfig.cpp */; };
+		2B802D7B17828E3A005216E9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B802D7A17828E3A005216E9 /* OpenSans-Regular.ttf */; };
+		2B802D831782910E005216E9 /* Scroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B802D811782910E005216E9 /* Scroller.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B802D5F17828E3A005216E9 /* Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B802D6317828E3A005216E9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		2B802D6417828E3A005216E9 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		2B802D6517828E3A005216E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		2B802D6617828E3A005216E9 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		2B802D6817828E3A005216E9 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		2B802D6A17828E3A005216E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		2B802D6C17828E3A005216E9 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		2B802D6E17828E3A005216E9 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		2B802D6F17828E3A005216E9 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		2B802D7117828E3A005216E9 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		2B802D7217828E3A005216E9 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		2B802D7517828E3A005216E9 /* ScrollApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollApp.h; sourceTree = "<group>"; };
+		2B802D7617828E3A005216E9 /* ScrollApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScrollApp.cpp; sourceTree = "<group>"; };
+		2B802D7817828E3A005216E9 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		2B802D7A17828E3A005216E9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../platform/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2B802D811782910E005216E9 /* Scroller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scroller.cpp; sourceTree = "<group>"; };
+		2B802D821782910E005216E9 /* Scroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scroller.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B802D5C17828E3A005216E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B802D5617828E3A005216E9 = {
+			isa = PBXGroup;
+			children = (
+				2B802D6117828E3A005216E9 /* Scroll */,
+				2B802D6017828E3A005216E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B802D6017828E3A005216E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B802D5F17828E3A005216E9 /* Scroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B802D6117828E3A005216E9 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				2B802D6217828E3A005216E9 /* platform */,
+				2B802D7417828E3A005216E9 /* application */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		2B802D6217828E3A005216E9 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				2B802D6317828E3A005216E9 /* Debug.xcconfig */,
+				2B802D6417828E3A005216E9 /* Release.xcconfig */,
+				2B802D6517828E3A005216E9 /* AppDelegate.h */,
+				2B802D6617828E3A005216E9 /* AppDelegate.mm */,
+				2B802D6817828E3A005216E9 /* en.strings */,
+				2B802D6A17828E3A005216E9 /* main.m */,
+				2B802D6C17828E3A005216E9 /* main.pch */,
+				2B802D6E17828E3A005216E9 /* main.plist */,
+				2B802D6F17828E3A005216E9 /* main.xib */,
+				2B802D7117828E3A005216E9 /* poOpenGLView.h */,
+				2B802D7217828E3A005216E9 /* poOpenGLView.mm */,
+				2B802D7A17828E3A005216E9 /* OpenSans-Regular.ttf */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		2B802D7417828E3A005216E9 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				2B802D7517828E3A005216E9 /* ScrollApp.h */,
+				2B802D7617828E3A005216E9 /* ScrollApp.cpp */,
+				2B802D811782910E005216E9 /* Scroller.cpp */,
+				2B802D821782910E005216E9 /* Scroller.h */,
+				2B802D7817828E3A005216E9 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B802D5E17828E3A005216E9 /* Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B802D7E17828E3A005216E9 /* Build configuration list for PBXNativeTarget "Scroll" */;
+			buildPhases = (
+				2B802D5B17828E3A005216E9 /* Sources */,
+				2B802D5C17828E3A005216E9 /* Frameworks */,
+				2B802D5D17828E3A005216E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scroll;
+			productName = Scroll;
+			productReference = 2B802D5F17828E3A005216E9 /* Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B802D5717828E3A005216E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 2B802D5A17828E3A005216E9 /* Build configuration list for PBXProject "Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B802D5617828E3A005216E9;
+			productRefGroup = 2B802D6017828E3A005216E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B802D5E17828E3A005216E9 /* Scroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B802D5D17828E3A005216E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B802D6917828E3A005216E9 /* en.strings in Resources */,
+				2B802D6D17828E3A005216E9 /* main.pch in Resources */,
+				2B802D7017828E3A005216E9 /* main.xib in Resources */,
+				2B802D7B17828E3A005216E9 /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B802D5B17828E3A005216E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B802D6717828E3A005216E9 /* AppDelegate.mm in Sources */,
+				2B802D6B17828E3A005216E9 /* main.m in Sources */,
+				2B802D7317828E3A005216E9 /* poOpenGLView.mm in Sources */,
+				2B802D7717828E3A005216E9 /* ScrollApp.cpp in Sources */,
+				2B802D7917828E3A005216E9 /* AppConfig.cpp in Sources */,
+				2B802D831782910E005216E9 /* Scroller.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B802D7C17828E3A005216E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B802D6317828E3A005216E9 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B802D7D17828E3A005216E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B802D6417828E3A005216E9 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2B802D7F17828E3A005216E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2B802D8017828E3A005216E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B802D5A17828E3A005216E9 /* Build configuration list for PBXProject "Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B802D7C17828E3A005216E9 /* Debug */,
+				2B802D7D17828E3A005216E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B802D7E17828E3A005216E9 /* Build configuration list for PBXNativeTarget "Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B802D7F17828E3A005216E9 /* Debug */,
+				2B802D8017828E3A005216E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B802D5717828E3A005216E9 /* Project object */;
+}

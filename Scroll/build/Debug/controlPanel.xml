@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<item name="root" type="6">
+	<item name="controlPanel" type="3">point(25,25,0)</item>
+	<item name="height" type="1">50</item>
+	<item name="location" type="1">200</item>
+	<item name="magnification" type="1">2</item>
+	<item name="period" type="1">0.000000</item>
+</item>

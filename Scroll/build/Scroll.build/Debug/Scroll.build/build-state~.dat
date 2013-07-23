@@ -1,0 +1,477 @@
+TScroll
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Info.plist platform/main.plist
+cProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o /Potion/projects/_tests/Scroll/Scroll/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll normal i386
+cCompileXIB /Potion/projects/_tests/Scroll/Scroll/../platform/main.xib
+cCpResource platform/main.pch build/Debug/Scroll.app/Contents/Resources/main.pch
+cCopyStringsFile /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/en.strings Scroll/../platform/en.strings
+cCpResource Scroll/../platform/OpenSans-Regular.ttf build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf
+cTouch /Potion/projects/_tests/Scroll/build/Debug/Scroll.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C91E1B00000000000000AA
+t1372134939
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005134CED200000000000001E5
+t1362415314
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005134CED200000000000015F7
+t1362415314
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h
+c00000000514334FB000000000000186F
+t1363358971
+s6255
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000005134CED30000000000003F80
+t1362415315
+s16256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/TargetConditionals.h
+c000000005134CED500000000000031E9
+t1362415317
+s12777
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm
+c0000000051D256BA0000000000001F29
+t1372739258
+s7977
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/OpenSans-Regular.ttf
+c000000005134F3210000000000035110
+t1362424609
+s217360
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/en.strings
+c0000000051D256BA000000000000002D
+t1372739258
+s45
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/main.m
+c0000000051D256BA0000000000000077
+t1372739258
+s119
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/main.xib
+c0000000051D256BA0000000000006176
+t1372739258
+s24950
+
+N/Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm
+c0000000051D256BA00000000000012DB
+t1372739258
+s4827
+
+N/Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp
+c0000000051D256BA0000000000000181
+t1372739258
+s385
+
+N/Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp
+c0000000051D256BA0000000000000334
+t1372739258
+s820
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Info.plist
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/PkgInfo
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/en.strings
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/main.nib
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/main.pch
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/Scroll.LinkFileList
+c0000000051D256C100000000000001F9
+t1372739265
+s505
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/Potion/projects/_tests/Scroll/platform/main.pch
+c0000000051D256BA0000000000000505
+t1372739258
+s1285
+i"TargetConditionals.h"
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i<OpenGL/OpenGL.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i<Foundation/Foundation.h>
+i<glm/ext.hpp>
+i<map>
+i<set>
+i<list>
+i<string>
+i<vector>
+i<stack>
+i<algorithm>
+i<iostream>
+i<boost/any.hpp>
+i<boost/bind.hpp>
+i<boost/variant.hpp>
+i<boost/foreach.hpp>
+i<boost/function.hpp>
+i<boost/noncopyable.hpp>
+i<boost/tuple/tuple.hpp>
+i<boost/unordered_map.hpp>
+i<boost/lexical_cast.hpp>
+i<boost/shared_ptr.hpp>
+i<boost/thread.hpp>
+i<boost/format.hpp>
+i<boost/filesystem.hpp>
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/any.hpp
+c000000005134F31D0000000000001969
+t1362424605
+s6505
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/bind.hpp
+c000000005134F31D0000000000000245
+t1362424605
+s581
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/filesystem.hpp
+c000000005134F31D000000000000053C
+t1362424605
+s1340
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/foreach.hpp
+c000000005134F31D000000000000B135
+t1362424605
+s45365
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/format.hpp
+c000000005134F31D0000000000000883
+t1362424605
+s2179
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/function.hpp
+c000000005134F31D0000000000000898
+t1362424605
+s2200
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/lexical_cast.hpp
+c000000005134F31D000000000001423D
+t1362424605
+s82493
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/noncopyable.hpp
+c000000005134F31D00000000000003F6
+t1362424605
+s1014
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/shared_ptr.hpp
+c000000005134F31E000000000000021B
+t1362424606
+s539
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/thread.hpp
+c000000005134F31E0000000000000347
+t1362424606
+s839
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/tuple/tuple.hpp
+c000000005134F31E0000000000000B2C
+t1362424606
+s2860
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/unordered_map.hpp
+c000000005134F31E0000000000000226
+t1362424606
+s550
+
+N/pocode/libraries/Boost/boost_1_49_0/boost/variant.hpp
+c000000005134F31E0000000000000373
+t1362424606
+s883
+
+N/pocode/libraries/glm/ext.hpp
+c000000005134F32000000000000015D4
+t1362424608
+s5588
+
+N/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth
+t2
+s0
+
+N/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth
+t2
+s0
+
+N/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c0000000051D256BA00000000000003E2
+t1372739258
+s994
+
+CBuild AST from /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm
+r0
+
+CBuild AST from /Potion/projects/_tests/Scroll/Scroll/../platform/main.m
+r0
+
+CBuild AST from /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm
+r0
+
+CBuild AST from /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp
+r0
+
+CBuild AST from /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3929e4408e82b741^f58001418e82b741^---0#1#0#--18"Check dependencies36"1DE06F69-DAAE-4463-BC3B-E6844230069C-
+
+CCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432068.358203
+e394432069.122826
+r1
+xCompileC
+xbuild/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o
+x/Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Potion/projects/_tests/Scroll/Scroll/AppConfig.cppd4d35b448e82b741^b9711f458e82b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp0000000000000000^2344"CompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o Scroll/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug -include /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.d --serialize-diagnostics /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.dia -c /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp -o /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppConfig.o36"69C4F82D-08C7-4668-B0E6-B7170E8D26F3-
+
+CCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432069.587285
+e394432070.244362
+r1
+xCompileC
+xbuild/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o
+x/Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mma79196458e82b741^618e3e468e82b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm0000000000000000^2561"CompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o Scroll/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug -include /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.dia -c /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm -o /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/AppDelegate.o36"3C6AA4C3-774D-429B-9538-C9572857D41C-
+
+CCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432068.358190
+e394432069.105992
+r1
+xCompileC
+xbuild/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o
+x/Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp08cc5b448e82b741^d5211b458e82b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp0000000000000000^2344"CompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o Scroll/ScrollApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug -include /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.d --serialize-diagnostics /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.dia -c /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp -o /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/ScrollApp.o36"C4EE2E8E-4884-48A1-A984-AAEADCD600B5-
+
+CCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o /Potion/projects/_tests/Scroll/Scroll/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394432066.613014
+e394432066.710111
+r1
+xCompileC
+xbuild/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o
+x/Potion/projects/_tests/Scroll/Scroll/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Potion/projects/_tests/Scroll/Scroll/../platform/main.m6b119d428e82b741^29ceb5428e82b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Potion/projects/_tests/Scroll/Scroll/../platform/main.m0000000000000000^2386"CompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o Scroll/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug -include /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.d --serialize-diagnostics /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.dia -c /Potion/projects/_tests/Scroll/Scroll/../platform/main.m -o /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/main.o36"21677FF1-D6D3-46E3-BB79-A0C3E4F8B67E-
+
+CCompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432069.587251
+e394432070.211735
+r1
+xCompileC
+xbuild/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o
+x/Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mme69296458e82b741^873436468e82b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm0000000000000000^2567"CompileC build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o Scroll/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug -include /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch -MMD -MT dependencies -MF /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.d --serialize-diagnostics /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.dia -c /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm -o /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/poOpenGLView.o36"FD23BABA-2D56-476E-9742-9CD487778C56-
+
+CCompileXIB /Potion/projects/_tests/Scroll/Scroll/../platform/main.xib
+s394432071.109184
+e394432071.131482
+r1
+xCompileXIB
+x/Potion/projects/_tests/Scroll/Scroll/../platform/main.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compiling /Potion/projects/_tests/Scroll/Scroll/../platform/main.xib520c1c478e82b741^aed621478e82b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Potion/projects/_tests/Scroll/Scroll/../platform/main.xib0000000000000000^551"CompileXIB Scroll/../platform/main.xib    cd /Potion/projects/_tests/Scroll    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/main.nib /Potion/projects/_tests/Scroll/Scroll/../platform/main.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"D9361239-6A64-453E-B4AC-725A1425B52F-
+
+CCopyStringsFile /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/en.strings Scroll/../platform/en.strings
+s394432071.109225
+e394432071.112867
+r1
+xCopyStringsFile
+x/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/en.strings
+xScroll/../platform/en.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy Scroll/../platform/en.stringse50d1c478e82b741^dae41c478e82b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Potion/projects/_tests/Scroll/Scroll/../platform/en.strings0000000000000000^333"CopyStringsFile build/Debug/Scroll.app/Contents/Resources/en.strings Scroll/../platform/en.strings    cd /Potion/projects/_tests/Scroll    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources -- Scroll/../platform/en.strings36"04CB2130-0A8B-47AF-9633-545899DE01EE-
+
+CCpResource Scroll/../platform/OpenSans-Regular.ttf build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf
+s394432071.109754
+e394432071.115466
+r1
+xCpResource
+xScroll/../platform/OpenSans-Regular.ttf
+xbuild/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttfdd221c478e82b741^1d8f1d478e82b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf000000000080d041^408"CpResource Scroll/../platform/OpenSans-Regular.ttf build/Debug/Scroll.app/Contents/Resources/OpenSans-Regular.ttf    cd /Potion/projects/_tests/Scroll    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Potion/projects/_tests/Scroll/Scroll/../platform/OpenSans-Regular.ttf /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources36"E06B019E-2254-43A2-A34F-0DD2DCB66A42-
+
+CCpResource platform/main.pch build/Debug/Scroll.app/Contents/Resources/main.pch
+s394432071.109205
+e394432071.113722
+r1
+xCpResource
+xplatform/main.pch
+xbuild/Debug/Scroll.app/Contents/Resources/main.pch
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug/Scroll.app/Contents/Resources/main.pchdd0b1c478e82b741^361d1d478e82b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources/main.pch000000000080d041^352"CpResource platform/main.pch build/Debug/Scroll.app/Contents/Resources/main.pch    cd /Potion/projects/_tests/Scroll    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Potion/projects/_tests/Scroll/platform/main.pch /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Resources36"052CCA2D-497F-4A2F-A685-640F4431C06B-
+
+CLd /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll normal i386
+s394432070.251233
+e394432071.100748
+r1
+xLd
+x/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll
+xnormal
+xi386
+old: warning: direct access in boost::system::system_error::~system_error() to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::lock_error::lock_error(int) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::thread_exception::thread_exception(int) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::lock_error::lock_error() to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::thread_exception::thread_exception() to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::lock_error::lock_error(boost::lock_error const&) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::thread_exception::thread_exception(boost::thread_exception const&) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::thread_resource_error::thread_resource_error() to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::thread_resource_error::thread_resource_error(boost::thread_resource_error const&) to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::condition_error::condition_error() to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::condition_error::condition_error(boost::condition_error const&) to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::detail::interruption_checker::check_for_interruption() to global weak symbol typeinfo for boost::thread_interrupted means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::system::system_error::system_error(boost::system::system_error const&) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::system::system_error::system_error(boost::system::error_code, char const*) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in boost::system::system_error::system_error(boost::system::error_code) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Link /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll1b6640468e82b741^b0ca19478e82b741^-4595"ld: warning: direct access in boost::system::system_error::~system_error() to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::lock_error::lock_error(int) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::thread_exception::thread_exception(int) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::lock_error::lock_error() to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::thread_exception::thread_exception() to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::lock_error::lock_error(boost::lock_error const&) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::thread_exception::thread_exception(boost::thread_exception const&) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::thread_resource_error::thread_resource_error() to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::thread_resource_error::thread_resource_error(boost::thread_resource_error const&) to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::condition_error::condition_error() to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::condition_error::condition_error(boost::condition_error const&) to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::detail::interruption_checker::check_for_interruption() to global weak symbol typeinfo for boost::thread_interrupted means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::system::system_error::system_error(boost::system::system_error const&) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::system::system_error::system_error(boost::system::error_code, char const*) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in boost::system::system_error::system_error(boost::system::error_code) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.15(21%IDEActivityLogMessage2@282"Direct access in boost::system::system_error::~system_error() to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#0#296#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@262"Direct access in boost::lock_error::lock_error(int) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#296#276#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@280"Direct access in boost::thread_exception::thread_exception(int) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#572#294#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@259"Direct access in boost::lock_error::lock_error() to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#866#273#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@277"Direct access in boost::thread_exception::thread_exception() to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#1139#291#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@283"Direct access in boost::lock_error::lock_error(boost::lock_error const&) to global weak symbol vtable for boost::lock_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#1430#297#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@307"Direct access in boost::thread_exception::thread_exception(boost::thread_exception const&) to global weak symbol vtable for boost::thread_exception means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#1727#321#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@292"Direct access in boost::thread_resource_error::thread_resource_error() to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#2048#306#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@327"Direct access in boost::thread_resource_error::thread_resource_error(boost::thread_resource_error const&) to global weak symbol vtable for boost::thread_resource_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#2354#341#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@274"Direct access in boost::condition_error::condition_error() to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#2695#288#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@303"Direct access in boost::condition_error::condition_error(boost::condition_error const&) to global weak symbol vtable for boost::condition_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#2983#317#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@299"Direct access in boost::detail::interruption_checker::check_for_interruption() to global weak symbol typeinfo for boost::thread_interrupted means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#3300#313#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@315"Direct access in boost::system::system_error::system_error(boost::system::system_error const&) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#3613#329#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@319"Direct access in boost::system::system_error::system_error(boost::system::error_code, char const*) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#3942#333#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@306"Direct access in boost::system::system_error::system_error(boost::system::error_code) to global weak symbol vtable for boost::system::system_error means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-394432070#4275#320#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--887"Ld build/Debug/Scroll.app/Contents/MacOS/Scroll normal i386    cd /Potion/projects/_tests/Scroll    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Potion/projects/_tests/Scroll/build/Debug -L/pocode/libraries/pocode -F/Potion/projects/_tests/Scroll/build/Debug -filelist /Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Objects-normal/i386/Scroll.LinkFileList -mmacosx-version-min=10.7 -lpocode_d -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -framework OpenAL -framework VideoDecodeAcceleration -fobjc-link-runtime -o /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/MacOS/Scroll36"C77A78A5-4F90-41F6-9B37-E3BAC46AA069-
+
+CProcessInfoPlistFile /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Info.plist platform/main.plist
+s394432065.022525
+e394432065.026088
+r1
+xProcessInfoPlistFile
+x/Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Info.plist
+xplatform/main.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plist1fd805418e82b741^87bf06418e82b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Potion/projects/_tests/Scroll/platform/main.plist0000000000000000^369"ProcessInfoPlistFile build/Debug/Scroll.app/Contents/Info.plist platform/main.plist    cd /Potion/projects/_tests/Scroll    builtin-infoPlistUtility platform/main.plist -genpkginfo /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Potion/projects/_tests/Scroll/build/Debug/Scroll.app/Contents/Info.plist36"FC9DFC4B-F5BA-4F41-93D4-922AC5AF96DD-
+
+CProcessPCH /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Scroll-bbykmzoqcqloljczeztpdfdczatr/Index/PrecompiledHeaders/main-afdriiszjkkmubeyprmgstqzorhl_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394432065.034422
+e394432066.606198
+r1
+xProcessPCH
+x/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch530309418e82b741^552f9b428e82b741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Potion/projects/_tests/Scroll/platform/main.pch0000000000000000^2440"ProcessPCH /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug --serialize-diagnostics /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.dia -c /Potion/projects/_tests/Scroll/platform/main.pch -o /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.pth -MMD -MT dependencies -MF /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-demugwpsjuidpphgdmrnqbdshhzs/main.pch.d36"CDEE92AA-4D4C-4B3E-B297-ED2719316D9A-
+
+CProcessPCH++ /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Scroll-bbykmzoqcqloljczeztpdfdczatr/Index/PrecompiledHeaders/main-ctvhgqldczknoqfbfgsxplzjitqp_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/jonathanbobrow/Library/Developer/Xcode/DerivedData/Scroll-bbykmzoqcqloljczeztpdfdczatr/Index/PrecompiledHeaders/main-dbyjlxrzsclspydtgjepxuhnanwr_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432065.034410
+e394432068.351309
+r1
+xProcessPCH++
+x/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch140609418e82b741^bbee59448e82b741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Potion/projects/_tests/Scroll/platform/main.pch0000000000000000^2390"ProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug --serialize-diagnostics /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.dia -c /Potion/projects/_tests/Scroll/platform/main.pch -o /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.pth -MMD -MT dependencies -MF /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-enhrseaegcwmkkbxvsnesbbwfgrm/main.pch.d36"41B95598-4ABC-4D72-B55F-87A94F0913D7-
+
+CProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394432065.034417
+e394432069.579970
+r1
+xProcessPCH++
+x/var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch750309418e82b741^9e7a94458e82b741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Potion/projects/_tests/Scroll/platform/main.pch0000000000000000^2573"ProcessPCH++ /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Potion/projects/_tests/Scroll    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wno-switch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/Scroll.hmap -I/pocode/libraries/pocode -I/Potion/projects/_tests/Scroll/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_49_0 -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources/i386 -I/Potion/projects/_tests/Scroll/build/Scroll.build/Debug/Scroll.build/DerivedSources -F/Potion/projects/_tests/Scroll/build/Debug --serialize-diagnostics /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.dia -c /Potion/projects/_tests/Scroll/platform/main.pch -o /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.pth -MMD -MT dependencies -MF /var/folders/_r/bfff1p7x5z97ffyw8j8_ff040000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/main-fnuowzsjnallxqesmcdfgojmndel/main.pch.d36"28F22200-5CC9-4E80-9D67-36ECD457A2D5-
+
+CTouch /Potion/projects/_tests/Scroll/build/Debug/Scroll.app
+s394432071.146431
+e394432071.175261
+r1
+xTouch
+x/Potion/projects/_tests/Scroll/build/Debug/Scroll.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Touch /Potion/projects/_tests/Scroll/build/Debug/Scroll.app00e127478e82b741^8fde2c478e82b741^---0#0#0#--143"Touch build/Debug/Scroll.app    cd /Potion/projects/_tests/Scroll    /usr/bin/touch -c /Potion/projects/_tests/Scroll/build/Debug/Scroll.app36"873D0568-8160-4708-A4F1-2F123DDB6AF4-
+
