@@ -1,7 +1,7 @@
 dependencies: \
-  /Potion/projects/_tests/Scroll/Scroll/../platform/poOpenGLView.mm \
-  /Potion/projects/_tests/Scroll/platform/poOpenGLView.h \
-  /Potion/projects/_tests/Scroll/platform/AppDelegate.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/../platform/poOpenGLView.mm \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/platform/poOpenGLView.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/poRect.h \

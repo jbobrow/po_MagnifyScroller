@@ -1,5 +1,6 @@
-dependencies: /Potion/projects/_tests/Scroll/Scroll/Scroller.cpp \
-  /Potion/projects/_tests/Scroll/Scroll/Scroller.h \
+dependencies: \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/Scroller.cpp \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/Scroller.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/poTween.h \
   /pocode/libraries/pocode/include/poEnums.h \

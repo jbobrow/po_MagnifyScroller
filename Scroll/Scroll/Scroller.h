@@ -8,6 +8,11 @@
 #include "poShapeBasics2D.h"
 #include "poTextBox.h"
 
+enum{
+	SCROLL_MAGNIFICATION_LINEAR = 0,
+	SCROLL_MAGNIFICATION_COSINE = 1
+};
+
 class Scroller : public poObject
 {
 public:

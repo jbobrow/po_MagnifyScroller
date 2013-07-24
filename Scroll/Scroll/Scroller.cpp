@@ -50,8 +50,12 @@ Scroller::~Scroller()
 
 void Scroller::update()
 {
+	bool bLinear = false;
 	float totalHeight = 0;
 	
+	float prevYheight = height;
+	float prevShift = 0;
+		
 	// update position of contents
 	for(int i=0; i<10; i++){
 		poRectShape *r = contents[i];
@@ -64,30 +68,35 @@ void Scroller::update()
 		float theta;
 		
 		if(  dist > -period && dist <= period ){
-			
-			theta = poMapf(0, period, dist, M_PI, 0);
-			
-			scale = min + (max - min) * (1 - cos(theta))/2.f;
 						
-			if(theta > M_PI)
-				shift = poMapf( 1, -1, cos(theta), 0, period/2.f);
-			else
-				shift = poMapf( -1, 1, cos(theta), period/2.f, period);
+			if( bLinear ){
+				scale = poMapf(period, 0, fabs(dist), min, max);
+			}
+			else{
+				theta = poMapf(0, period, dist, M_PI, 0);
+				scale = min + (max - min) * (1 - cos(theta))/2.f;
+			}
 			
-			// TODO: or calculate the shift as equal to half of the current items size + half of the above items size from the previous midpoint
+			// calculate the shift as equal to half of the current items size + half of the above items size from the previous midpoint
+			shift = (prevYheight - height)/2.f + (height * (scale-1))/ 2.f + prevShift;
+			
 		}
 		else{
 			
-			scale = 1.f;
+			scale = min;
 			
-			if( !above )
-				shift = period;
-			else
+			if( above )
 				shift = 0;
+			else
+				shift = (prevYheight - height)/2.f + (height * (scale-1))/ 2.f + prevShift;
+			
 		}
 		
 		r->scale = poPoint(scale, scale, 1.f);
 		r->position += poPoint(0,shift);
+		
+		prevYheight = r->scale.y * height;
+		prevShift = shift;
 		
 		
 		poTextBox *t = labels[i];

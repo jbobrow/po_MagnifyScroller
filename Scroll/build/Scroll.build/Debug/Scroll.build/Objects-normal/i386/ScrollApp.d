@@ -1,5 +1,6 @@
-dependencies: /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp \
-  /Potion/projects/_tests/Scroll/Scroll/ScrollApp.h \
+dependencies: \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/ScrollApp.cpp \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/ScrollApp.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/poTween.h \
   /pocode/libraries/pocode/include/poEnums.h \
@@ -26,7 +27,7 @@ dependencies: /Potion/projects/_tests/Scroll/Scroll/ScrollApp.cpp \
   /pocode/libraries/pocode/include/poEventCenter.h \
   /pocode/libraries/pocode/include/poEvent.h \
   /pocode/libraries/pocode/include/poObjectModifier.h \
-  /Potion/projects/_tests/Scroll/Scroll/Scroller.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/Scroller.h \
   /pocode/libraries/pocode/include/poShapeBasics2D.h \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \

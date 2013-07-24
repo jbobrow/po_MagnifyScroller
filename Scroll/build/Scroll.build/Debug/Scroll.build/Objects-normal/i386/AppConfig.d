@@ -1,4 +1,5 @@
-dependencies: /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp \
+dependencies: \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/AppConfig.cpp \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/poRect.h \
@@ -10,7 +11,7 @@ dependencies: /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp \
   /pocode/libraries/pocode/include/poXML.h \
   /pocode/libraries/pugixml/pugixml.hpp \
   /pocode/libraries/pugixml/pugiconfig.hpp \
-  /Potion/projects/_tests/Scroll/Scroll/ScrollApp.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/ScrollApp.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/poTween.h \
   /pocode/libraries/pocode/include/poEasingFunctions.h \
@@ -28,7 +29,7 @@ dependencies: /Potion/projects/_tests/Scroll/Scroll/AppConfig.cpp \
   /pocode/libraries/Boost/boost_1_49_0/boost/function/detail/maybe_include.hpp \
   /pocode/libraries/pocode/include/poEventCenter.h \
   /pocode/libraries/pocode/include/poObjectModifier.h \
-  /Potion/projects/_tests/Scroll/Scroll/Scroller.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/Scroller.h \
   /pocode/libraries/pocode/include/poShapeBasics2D.h \
   /pocode/libraries/pocode/include/poShape2D.h \
   /pocode/libraries/pocode/include/poSimpleDrawing.h \

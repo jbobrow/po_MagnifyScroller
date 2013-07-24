@@ -1,1 +1,2 @@
-dependencies: /Potion/projects/_tests/Scroll/Scroll/../platform/main.m
+dependencies: \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/../platform/main.m

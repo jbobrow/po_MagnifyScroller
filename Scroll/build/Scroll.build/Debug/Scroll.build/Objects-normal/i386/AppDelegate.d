@@ -1,6 +1,6 @@
 dependencies: \
-  /Potion/projects/_tests/Scroll/Scroll/../platform/AppDelegate.mm \
-  /Potion/projects/_tests/Scroll/platform/AppDelegate.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/Scroll/../platform/AppDelegate.mm \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/poRect.h \
@@ -12,5 +12,5 @@ dependencies: \
   /pocode/libraries/pocode/include/poXML.h \
   /pocode/libraries/pugixml/pugixml.hpp \
   /pocode/libraries/pugixml/pugiconfig.hpp \
-  /Potion/projects/_tests/Scroll/platform/poOpenGLView.h \
+  /Potion/pocodeFun/po_MagnifyScroller/Scroll/platform/poOpenGLView.h \
   /pocode/libraries/pocode/include/poHelpers.h
